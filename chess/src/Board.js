@@ -1,6 +1,7 @@
 import './App.css';
 import Ranks from './Ranks';
 import Files from './Files';
+import Pieces from './Pieces.js'
 
 const Board = () => {
 
@@ -22,7 +23,7 @@ const Board = () => {
         {
           ranks.map((rank, i) =>
             files.map((file, j) =>
-              <div key={file + '-' + rank} className={getColor(i, j)}></div>
+              <div key={file + '-' + rank} className={getColor(i, j)}><Pieces/></div>
             )
           )
         }
