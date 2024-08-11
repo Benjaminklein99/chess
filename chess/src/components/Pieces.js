@@ -17,7 +17,7 @@ const Pieces = ({piece}) => {
         r.map((f, file) =>
           position[rank][file] ?
           <Piece
-            key={rank + '-' + file}
+            key={rank + '--' + file}
             rank={rank}
             file={file}
             piece={position[rank][file]}

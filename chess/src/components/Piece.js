@@ -1,6 +1,9 @@
 const Piece = ({rank, file, piece}) => {
   return (
-    <div className={`piece ${piece} p-${rank}${file}`}></div>
+    <div
+      className={`piece ${piece} p-${rank}${file}`}
+      draggable={true}
+    ></div>
   )
 }
 
