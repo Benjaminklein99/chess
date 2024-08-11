@@ -41,6 +41,7 @@ body {
   align-items: center;
   justify-content: space-around;
   color: white;
+  background-color: rgba(0, 0, 0, 0.241);
 }
 
 .files {
@@ -51,13 +52,48 @@ body {
   color: white;
   height: 25px;
   width: 600px;
+  background-color: rgba(0, 0, 0, 0.241);
+
+}
+
+.pieces {
+  position: relative;
+  top: -100%;
+  left: 25px;
+  display: grid;
+  grid-template-columns: repeat(8, var(--tile-size));
+  grid-template-rows: repeat(8, var(--tile-size));
+  width: calc(8 * var(--tile-size));
+}
+
+.piece {
+  height: 75px;
+  width: 75px;
+  background-position: center;
+  background-repeat: no-repeat;
+
 }
 
 .dp {
   background-image: url('../pieces/dp.png');
-  height: 100%;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
+}
 
+.db {
+  background-image: url('../pieces/db.png');
+}
+
+.dn {
+  background-image: url('../pieces/dn.png');
+}
+
+.dr {
+  background-image: url('../pieces/dr.png');
+}
+
+.dq {
+  background-image: url('../pieces/dq.png');
+}
+
+.dk {
+  background-image: url('../pieces/dk.png');
 }
