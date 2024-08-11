@@ -6,7 +6,7 @@ import Pieces from './Pieces.js'
 const Board = () => {
 
   const getColor = (i, j) => {
-    if ((i + j) % 2 == 0) {
+    if ((i + j) % 2 === 0) {
       return 'light'
     } else {
       return 'dark'

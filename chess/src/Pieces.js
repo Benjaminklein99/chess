@@ -1,6 +1,6 @@
-const Pieces = () => {
+const Pieces = ({piece}) => {
   return (
-    <div className='piece'>
+    <div className='dp'>
     </div>
   )
 }

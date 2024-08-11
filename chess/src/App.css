@@ -53,8 +53,8 @@ body {
   width: 600px;
 }
 
-.piece {
-  background-image: url('../pieces/dark-queen.png');
+.dp {
+  background-image: url('../pieces/dp.png');
   height: 100%;
   width: 100%;
   background-position: center;
